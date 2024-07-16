@@ -168,3 +168,24 @@ input, select{
   font-weight: bold;
   transform: translate(-50%, -50%);
 }
+.footer{
+  background: rgba(19, 19, 24, 0.05);
+  padding: 2rem 0;
+}
+.footer, .logo{
+  margin: 2rem auto;
+}
+.footer hr{
+  margin: 2rem 0;
+}
+.icons{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+}
+.icons i{
+  height: 44px;
+  font-size: 24px;
+}
