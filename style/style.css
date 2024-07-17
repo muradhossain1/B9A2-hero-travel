@@ -121,6 +121,10 @@ input, select{
   gap: 100px;
 
 }
+.popular-section img{
+  width: 100%;
+  height: 100%;
+}
 
 .text-content{
   display: flex;
@@ -188,4 +192,40 @@ input, select{
 .icons i{
   height: 44px;
   font-size: 24px;
+}
+.han-barger{
+  display: none;
+}
+@media screen and (max-width:576px) {
+  .nav-option{
+    display: none;
+  }
+  .han-barger{
+    display: block;
+    font-size:26px ;
+  }
+  .nav-ber, .logo h3{
+    font-size: 26px;
+  }
+  .container{
+    margin: 3rem auto;
+  }
+  .explore-container h3{
+    font-size: 26px;
+  }
+  .explore-container p{
+    width: 60%;
+  }
+  .travel-inputs{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+  .travel-inputs input, .travel-inputs select, .travel-inputs button{
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .popular-section, .row-1, .row-2, .row-3{
+    grid-template-columns: 1fr;
+  }
 }
